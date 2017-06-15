@@ -1,0 +1,6 @@
+#!/bin/sh 
+ 
+snapctl set device-service.url="http://localhost:8080/v1/"
+snapctl set device-service.headers='{"api-key": "U2VyaWFsIFZhdWx0Cg"}'
+snapctl set registration.proposed-serial="012345"
+

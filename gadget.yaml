@@ -1,0 +1,4 @@
+volumes:
+  pc:
+    bootloader: grub
+    structure:
